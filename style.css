@@ -91,6 +91,7 @@ button{
     height: auto;
     border: 4px solid;
     border-color: #3882f6;
+    border-radius: 5px;
 }
 
 .information{
@@ -118,4 +119,43 @@ button{
 .body-two .quote-from{
     font-weight: bold;
     text-align: right;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    height: 100px;
+    margin: 100px 200px;
+    border-radius: 5px;
+    padding:15px 25px;
+    color: #f9faf8;
+}
+
+.sign-up-head{
+    font-weight: 600;
+}
+
+.sign-up-text{
+    font-weight: 100;
+}
+
+.sign-up button{
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+    height: 30px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding-bottom: 10px 0px;
+    height: 40px;
 }
